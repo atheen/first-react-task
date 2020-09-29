@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 //data
@@ -8,15 +7,11 @@ import items from './items.js'
 //styles
 import styles from './styles.js'
 
+//list
+import ItemsList from './components/ItemsList.js'
+
 
 function App() {
-  const itemsList = items.map((item) => (
-    <div style={styles.item} key={item.id}>
-      <img style={styles.itemImage} alt={item.name} src={item.image}/>
-      <p style={styles.text}>{item.name}</p>
-      <p style={styles.text}>{item.price} SR</p>
-    </div>
-  ));
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +19,7 @@ function App() {
       <p style={styles.text}>where you can buy any apple product!</p>
       <img src="https://www.apple.com/ac/structured-data/images/open_graph_logo.png?201809240543" style={styles.logoImage} alt="logo" />
       <hr/>
-        {itemsList}
+        {ItemsList}
       </header>
     </div>
   );

@@ -2,30 +2,42 @@ const items = [
   {
     id: "1",
     name: "Macbook",
-    price: 5000,
+    price: 12999,
     image:
-      "https://eddy.com.sa/25961-large_default/13-inch-macbook-air-16ghz-dual-core-intel-core-i5-256gb.jpg",
+      "https://www.jarir.com/cdn-cgi/image/fit=contain,width=400,height=400/https://www.jarir.com/media//catalog/product/5/3/538330.jpg?1",
+    website: "https://www.jarir.com/sa-en/apple-macbook-pro-laptops-538330.html"
   },
   {
     id: "2",
     name: "iPhone",
-    price: 4000,
+    price: 5599,
     image:
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022175704",
+      "https://www.jarir.com/cdn-cgi/image/fit=contain,width=400,height=400/https://www.jarir.com/media//catalog/product/5/3/534358.jpg?1",
+    website: "https://www.jarir.com/sa-en/apple-iphone-11-pro-smartphones-534358.html"
   },
   {
     id: "3",
     name: "Apple Watch",
-    price: 2000,
+    price: 1769,
     image:
-      "https://www.apple.com/newsroom/images/product/os/watchos/standard/Apple-watch-watchos7_06222020_LP_hero.jpg.og.jpg",
+      "https://www.jarir.com/cdn-cgi/image/fit=contain,width=400,height=400/https://www.jarir.com/media//catalog/product/5/3/534338.jpg?1",
+    website: "https://www.jarir.com/sa-en/apple-series-5-smart-watch-534338.html"
   },
   {
     id: "4",
     name: "iMac",
-    price: 10000,
+    price: 10849,
     image:
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-215-selection-hero-201706?wid=892&hei=820&&qlt=80&.v=1570231130149",
+      "https://www.jarir.com/cdn-cgi/image/fit=contain,width=400,height=400/https://www.jarir.com/media//catalog/product/5/5/553060.jpg?1",
+    website: "https://www.jarir.com/sa-en/apple-imac-desktop-computers-553060.html"
+  },
+  {
+    id: "5",
+    name: "iPad",
+    price: 7399,
+    image:
+      "https://www.jarir.com/cdn-cgi/image/fit=contain,width=400,height=400/https://www.jarir.com/media//catalog/product/5/4/547330.jpg?1",
+    website: "https://www.jarir.com/sa-en/apple-ipad-pro-12-9-2020-tablet-pc-547330.html"
   },
 ];
 
