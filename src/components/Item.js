@@ -4,17 +4,17 @@ import React from 'react';
 import items from '../items.js'
 
 //styles
-import styles from '../styles.js'
+import {ItemWrapper} from './styles.js'
 
 const Item = props => {
   const item = props.item;
   return(
     <a href={item.website}>
-    <div style={styles.item} key={item.id}>
-      <img style={styles.itemImage} alt={item.name} src={item.image}/>
-      <p style={styles.text}>{item.name}</p>
-      <p style={styles.text}>{item.price} SR</p>
-    </div>
+    <ItemWrapper key={item.id}>
+      <img alt={item.name} src={item.image}/>
+      <p>{item.name}</p>
+      <p class="item-price">{item.price} SR</p>
+    </ItemWrapper>
     </a>
   );
 }
